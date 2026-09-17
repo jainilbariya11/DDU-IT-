@@ -5,16 +5,16 @@ int main()
   int b;
   int triplet=0;
 
-  printf("enter number of elements: ");
+  printf("enter number of elements: "); //you want array size.
  scanf("%d",&N); 
-printf("---------------------------------\n"); 
-     printf("enter the array:\n");
+printf("---------------------------------\n");
+     printf("enter the array:\n");//input array
   for(i=0;i<N;i++)
   {
     scanf("%d",&a[i]);
   }
   printf("---------------------------------\n"); 
-  printf("your array is:\n"); 
+  printf("your array is:\n"); // print array
    for(i=0;i<N;i++)
   {
     
@@ -25,7 +25,7 @@ printf("---------------------------------\n");
 printf("the sum of three elements are : ");
   scanf("%d",&b);
   printf("b=%d\n",b);
-  printf("---------------------------------\n");
+  printf("---------------------------------\n"); // decoration
 
 
 for(i=0;i<N-2;i++)
