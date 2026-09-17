@@ -1,2 +1,2 @@
-# DDU-IT-
+# DDU-IT
 About C Language Program.
