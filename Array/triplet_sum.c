@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-  int i ,j,k,N,a[10];
+  int i ,j,k,N,a[50];
   int b;
   int triplet=0;
 
