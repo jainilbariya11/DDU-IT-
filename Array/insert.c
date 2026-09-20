@@ -32,8 +32,9 @@ for(i=N;i>pos;i--)
 {
     a[i]=a[i-1];
 }
+  printf("a[%d] = %d\n",pos,b);
  a[pos]=b;    
-
+printf("---------------------------------\n"); 
 printf("your new array is:\n");
                            for(i=0;i<=N;i++)
                            {
@@ -41,6 +42,7 @@ printf("your new array is:\n");
                             printf("%d\n",a[i]);
 
                            }
+  printf("---------------------------------\n"); 
                                 
                         return 0;               
                 }    
