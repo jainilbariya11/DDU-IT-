@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-  int i ,j,N,a[10];
+  int i ,j,N,a[50];
   int b;
-  int pair=0;
+  int pair=0;//intially pair count=0
 
-  printf("enter number of elements: ");
+  printf("enter number of elements: ");//array size you want
  scanf("%d",&N); 
 printf("---------------------------------\n"); 
-     printf("enter the array:\n");
+     printf("enter the array:\n");//emter elements
   for(i=0;i<N;i++)
   {
     scanf("%d",&a[i]);
@@ -21,14 +21,14 @@ printf("---------------------------------\n");
     printf("%d\n",a[i]);
 
   }
-printf("---------------------------------\n");
+printf("---------------------------------\n");//sum of two elements which you want
 printf("the sum of two elements are : ");
   scanf("%d",&b);
   printf("b=%d\n",b);
   printf("---------------------------------\n");
 
 
-for(i=0;i<N-1;i++)
+for(i=0;i<N-1;i++)//find numbers and pair
 {
     for(j=i+1;j<N;j++)
    {
@@ -41,7 +41,7 @@ for(i=0;i<N-1;i++)
    
    }
 }
- printf("Number of pair whose sum = %d is: %d\n",b,pair); 
+ printf("Number of pair whose sum = %d is: %d\n",b,pair); //show result
 
  printf("---------------------------------\n");
  return 0;
