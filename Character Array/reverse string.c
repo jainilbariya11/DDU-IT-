@@ -12,5 +12,5 @@
         a[i]=a[j-i-1];
         a[j-i-1]=k;
     }
-    printf("%s",a);
+    printf("The reverse of the given word is %s",a);
  }
