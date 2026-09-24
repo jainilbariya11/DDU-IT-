@@ -5,7 +5,7 @@
     char a[100],b[100];
     int i,j,k;
   printf("Enter the string :\n"):
-    scanf("%s",a);
+    gets(a);
     j=strlen(a);
     k=j-1;
     for(i=0;i<j;i++)
