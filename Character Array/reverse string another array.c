@@ -4,6 +4,7 @@
  {
     char a[100],b[100];
     int i,j,k;
+  printf("Enter the string :\n"):
     scanf("%s",a);
     j=strlen(a);
     k=j-1;
@@ -12,5 +13,5 @@
         b[k]=a[i];
         k--;
     }
-    printf("The reverse of the given string is %s",b);
+    printf("The reverse of the given string is %s.",b);
       }
