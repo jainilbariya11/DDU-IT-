@@ -10,8 +10,13 @@ printf("---------------------------------\n");
      printf("enter the marks:\n");//enter marks
      printf("\"NOTE: ENTER MARKS<=100.\"\n");
   for(i=0;i<N;i++)
-  {     
+  {   
+    abc: //goto label
     scanf("%d",&a[i]);
+    if(a[i]>100)
+    {
+      goto abc; // use goto if enter >100 marks.
+    }
     grp[a[i]/10]++;   
   }
   printf("---------------------------------\n"); 
